@@ -5,7 +5,7 @@ function saldoVitoria (qtdVitoria, qtdDerrota){
 saldoVitoria = qtdVitoria - qtdDerrota
 
     if (saldoVitoria < 10){
-         console.log("O herói tem o saldo de " + (saldoVitoria) + " está no nível de Ferro")
+        console.log("O herói tem o saldo de " + (saldoVitoria) + " está no nível de Ferro")
     }
     else if(saldoVitoria >=11 && saldoVitoria <=20){
         console.log("O herói tem o saldo de " + (saldoVitoria) + " está no nível de Bronze")
